@@ -10,7 +10,21 @@ version = "5.0.0"
 
 [build-dependencies]
 walkdir = "2"
-
+[dependencies]
+base64 = "0.22.1"
+clap = "3.2.23"
+console = "0.15.10"
+futures = "0.3"
+serde = "1.0.217"
+serde_derive = "1.0.103"
+serde_json = "1.0.134"
+solana-account-decoder = "2.1.0"
+solana-clap-v3-utils = "2.1.0"
+solana-cli-config = "2.1.0"
+solana-cli-output = "2.1.0"
+solana-client = "2.1.0"
+solana-logger = "2.1.0"
+solana-remote-wallet = "2.1.0"
 [dependencies]
 base64 = "0.22.1"
 clap = "3.2.23"
